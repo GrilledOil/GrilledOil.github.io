@@ -1,0 +1,40 @@
+img {
+    margin: 10px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#title {
+    font-family: Lucida Console;
+    font-style: italic;
+    padding: 20px 50px 20px 50px;
+    background-color: aquamarine;
+    border: solid darkgreen;
+    border-radius: 25px;
+}
+
+#topLeft {
+    height: 150px;
+    width: 225px;
+    border-radius: 25px 25px 0 25px;
+}
+
+#topRight {
+    height: 150px;
+    width: 225px;
+    border-radius: 25px 25px 25px 0;
+}
+
+#bottomLeft {
+    height: 150px;
+    width: 225px;
+    border-radius: 25px 0 25px 25px;
+}
+
+#bottomRight {
+    height: 150px;
+    width: 225px;
+    border-radius: 0 25px 25px 25px;
+}
