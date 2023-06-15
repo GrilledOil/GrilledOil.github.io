@@ -3,11 +3,10 @@ img {
 }
 
 #title {
-    font-family: Lucida Console;
-    font-style: italic;
+    font-family: #fbf3f3;
     padding: 20px 50px 20px 50px;
-    background-color: aquamarine;
-    border: solid darkgreen;
+    background-color: #413839;
+    border: solid #0C090A;
     border-radius: 25px;
 }
 
@@ -33,4 +32,115 @@ img {
     height: 150px;
     width: 225px;
     border-radius: 0 25px 25px 25px;
+}
+
+table {
+    width: 80%;
+}
+
+.signUp {
+    position: relative;
+    bottom: 10%;
+    left: 35%;
+    height: 120px;
+    width: 475px;
+    background: #1f1e1e;
+    border-radius: 25px;
+    padding: 40px 20px 40px 40px;
+}
+
+.signUpInfo {
+    border-radius: 25px;
+    background: #0f0f0f;
+    color: #dbdbdb;
+    border-color: #050505;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 20px 15px 0;
+}
+
+.signUpButton {
+    border-radius: 25px;
+    background: #0f0f0f;
+    color: #dbdbdb;
+    border-color: #050505;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 0 50px 115px;
+}
+
+header {
+    background: #0a0b0d;
+    border-bottom: solid #050506;
+}   
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+.logo {
+    height: 65px;
+    width: 175px;
+    margin-top: 5px;
+    float: left;
+}
+
+.headContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 50px 0 20px;
+    padding-top: 30px;
+
+    position: relative;
+}
+
+nav a {
+    color: #dbcba0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ece5cf;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #dbcba0;
+
+    position: absolute;
+    width: 0%;
+    top: 0; 
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
 }

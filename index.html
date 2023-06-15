@@ -1,69 +1,94 @@
 <!DOCTYPE html>
 <html>  
-    <head> 
-        <link rel="stylesheet" href="style.css">
-        <title>
-            Adam's Page
-        </title>
-        <style>
-            body {
-                background-image: url("graphics/stary-sky.jpg");
-                color: #ceb6b6;
-            }
-        </style>
-    </head>
-    <body> 
-        <h1>
-            <strong id="title">Adam's Page of Stuff</strong>
-        </h1>
-        <img id="topLeft" src="graphics/pillarsofcreation.jpg">
-        <img id="topRight" src="graphics/earthAndMoon.jpg">
-        <br>
-        <img id="bottomLeft" src="graphics/newEarthV2.jpg">
-        <img id="bottomRight" src="graphics/planetAndStar.jpg">
-        <br>
-        <p>
-            This is my page of things that I decided to make. My first HTML page and just an experiment really.
-        </p>
-        <br>
-        <ol> The best flavours of protein shake:
-            <li>Banana</li>
-            <li>Vanilla</li>
-            <li>Chocolate</li>
-        </ol>
-        <br>   
-        <p>
-            Range:
-        </p>
-        <input type="range">
-        <p>
-            Checkbox:
-        </p>
-        <input type="checkbox">
-        <p>
-            Date:
-        </p>
-        <input type="date">
-        <p>
-            Colour:
-        </p>
-        <input type="color">
-        <p>
-            Make a new account:
-        </p>
-        <input placeholder="Email", type="text">
-        <br>
-        <input placeholder="Password", type="password">
-        <br>
-        <button>  
-            <a href="www.infiniconcept.com">
-                My dad's website
-            </a>
-        </button>
-        <button>
-            <a href="/page2.hmtl">
-                Next Page
-            </a>
-        </button>
-    </body>
+<head> 
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Adam's Page
+    </title>
+    <style>
+        body {
+            background-image: url("graphics/stary-sky.jpg");
+            color: #ceb6b6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <div class="headContainer">
+            <img src="graphics/logo.JPG" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="https://www.infiniconcept.com">Infiniconcept</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <div class="mainText">
+                        <img id="topLeft" src="graphics/pillarsofcreation.jpg">
+                        <img id="topRight" src="graphics/earthAndMoon.jpg">
+                        <br>
+                        <img id="bottomLeft" src="graphics/newEarthV2.jpg">
+                        <img id="bottomRight" src="graphics/planetAndStar.jpg">
+                        <br>
+                    </div>
+                </td>
+                <td>
+                    <div class="signUp">
+                        <input class="signUpInfo", placeholder="Email", type="text">
+                        <input class="signUpInfo", placeholder="Password", type="password">
+                        <br>
+                        <button class="signUpButton">
+                            Sign Up
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        This is my page of things that I decided to make. My first HTML page and just an experiment really.
+    </p>
+    <br>
+    <p>
+        The best flavours of protein shake:
+    </p>
+    <ol>
+        <li>Banana</li>
+        <li>Vanilla</li>
+        <li>Chocolate</li>
+    </ol>
+    <br>   
+    <p>
+        Range:
+    </p>
+    <input type="range">
+    <p>
+        Checkbox:
+    </p>
+    <input type="checkbox">
+    <p>
+        Date:
+    </p>
+    <input type="date">
+    <p>
+        Colour:
+    </p>
+    <input type="color">
+</body>
 </html>
