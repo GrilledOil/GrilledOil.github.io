@@ -14,44 +14,9 @@ table {
     width: 80%;
 }
 
-.signUp {
-    position: relative;
-    bottom: 0%;
-    right: 7%;
-    height: 120px;
-    width: 475px;
-    background: #1f1e1e;
-    border-radius: 25px;
-    padding: 40px 20px 40px 40px;
 
-    float: right;
-}
 
-.signUpInfo {
-    border-radius: 25px;
-    background: #0f0f0f;
-    color: #dbdbdb;
-    border-color: #050505;
-    height: 50px;
-    width: 200px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 15px;
-    margin: 0 20px 15px 0;
-}
 
-.signUpButton {
-    border-radius: 25px;
-    background: #0f0f0f;
-    color: #dbdbdb;
-    border-color: #050505;
-    height: 60px;
-    width: 200px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 15px;
-    margin: 0 0 50px 115px;
-}
 
 ::-webkit-scrollbar {
     width: 1em;

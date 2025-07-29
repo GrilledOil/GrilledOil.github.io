@@ -1,0 +1,34 @@
+#itchGames {
+    font-family: Courier New, monospace;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.ItchHeader {
+    font-family: Courier New, monospace;
+    font-size: 55px;
+    color: #fbf3f3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ArcadeGames {
+    font-family: Courier New, monospace;
+    font-size: 30px;
+    color: #fbf3f3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#GamesHeader {
+    font-family: Courier New, monospace;
+    font-size: 80px;
+    color: #fbf3f3;
+    text-align: center;
+    margin: 40px;
+}
+
+.gameImage {
+    height: 167px;
+    margin: 0 auto; 
+}
